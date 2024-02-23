@@ -11,8 +11,7 @@ A space to experiment with assistive technologies and accessible web development
 * Browser extensions
     * [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) - Free
     * [WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) - Free
-    * [Axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - freemium; paid license gives access to additional tooling
-nvda
+    * [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - freemium; paid license gives access to additional tooling
 * [Colour contrast analyser (CCA)](https://www.tpgi.com/color-contrast-checker/)
     * Allows colour picking of screen elements for foreground-background colour, displays the contrast ratio and gives advice on which WCAG standards are met
 * Screen readers
