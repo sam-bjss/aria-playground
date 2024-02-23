@@ -3,6 +3,7 @@ export default defineNuxtConfig({
     components: [
         { path: "~/components/", extensions: ["vue"] },
         { path: "~/components/ui", extensions: ["vue"] },
+        { path: "~/components/forms", extensions: ["vue"] },
         { path: "~/components/tabs", extensions: ["vue"] },
     ],
     modules: ["@nuxtjs/eslint-module"],

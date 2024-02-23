@@ -81,6 +81,8 @@ function toggleAnnouncement() {
                 :announcement-text="announcementText"
                 :list-of-things="listOfThings"
             />
+
+            <FormSection />
         </main>
     </div>
 </template>
