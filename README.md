@@ -1,6 +1,3 @@
-# Nuxt 3 with Prettier/ESLint, TailwindCSS and Tailwind Helpers
+# Aria Playground Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
+A space to experiment with assistive technologies and accessible web development
