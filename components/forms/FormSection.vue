@@ -1,3 +1,4 @@
+import type { BaseButton } from '#build/components';
 <script setup lang="ts">
 import { reactive } from "vue"
 
@@ -9,7 +10,10 @@ const data = reactive({
 
 <template>
     <BaseSection>
-        <form class="space-y-8 rounded-xl bg-emerald-500/20 p-4">
+        <form
+            class="space-y-8 rounded-xl bg-emerald-500/20 p-4"
+            @submit.prevent
+        >
             <div class="space-x-2">
                 <label
                     for="input-1"
@@ -103,7 +107,8 @@ const data = reactive({
                 <label
                     for="input-7"
                     class="mt-4 block text-sm font-semibold uppercase text-emerald-800"
-                    >Subsequent label for Input 7 - both labels are read in NVDA</label
+                    >Subsequent label for Input 7 - both labels are read in
+                    NVDA</label
                 >
                 <input
                     id="input-7"
@@ -112,6 +117,7 @@ const data = reactive({
                             ring-4 ring-emerald-500/0 transition-all duration-150 focus:ring-emerald-500`"
                 />
             </div>
+            <BaseButton>It's a button</BaseButton>
         </form>
     </BaseSection>
 </template>

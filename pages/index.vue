@@ -40,7 +40,7 @@ function toggleAnnouncement() {
     <div>
         <header class="bg-slate-200">
             <nav>
-                <ul role="presentation" class="list-none space-x-4">
+                <ul class="list-none space-x-4">
                     <li class="inline-block"><a href="#"> 1</a></li>
                     <li class="inline-block"><a href="#"> 2</a></li>
                     <li class="inline-block"><a href="#"> 3</a></li>
