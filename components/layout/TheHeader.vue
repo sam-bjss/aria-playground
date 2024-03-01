@@ -57,6 +57,6 @@
     @apply border-b-2 border-emerald-200/0 transition-colors duration-300;
 }
 .nav-link-active {
-    @apply border-emerald-200;
+    border-color: rgb(167 243 208 / 1);
 }
 </style>
