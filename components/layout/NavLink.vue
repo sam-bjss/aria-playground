@@ -1,7 +1,10 @@
 <script setup lang="ts">
+//border utility class needs to be defined as !important here
+//because precedence can't otherwise be guaranteed
+//due to quirks in the way tailwind utility class style sheets are included
 const NavLink = defineNuxtLink({
     componentName: "NavLink",
-    activeClass: "border-emerald-200",
+    activeClass: "!border-emerald-200",
 })
 
 const { to } = defineProps<{ to: string }>()
@@ -16,9 +19,3 @@ const { to } = defineProps<{ to: string }>()
         ></NavLink>
     </li>
 </template>
-
-<style scoped>
-.nav-link-active {
-    border-color: rgb(167 243 208 / 1);
-}
-</style>
