@@ -102,14 +102,13 @@ const data = reactive({
                 <label
                     for="input-7"
                     class="text-sm font-semibold uppercase text-emerald-800"
-                    >Input 7 - first label for for="" tag</label
-                >
+                    >Input 7 - first label for for="" tag
+                </label>
                 <label
                     for="input-7"
                     class="mt-4 block text-sm font-semibold uppercase text-emerald-800"
-                    >Subsequent label for Input 7 - both labels are read in
-                    NVDA</label
-                >
+                    >Subsequent label for Input 7 - both labels are read in NVDA
+                </label>
                 <input
                     id="input-7"
                     v-model="data.input1"
