@@ -7,46 +7,10 @@
         </h1>
         <nav class="p-2 px-8 text-lg text-emerald-200">
             <ul class="list-none space-x-8">
-                <li class="inline-block">
-                    <NuxtLink
-                        class="nav-link"
-                        active-class="nav-link-active"
-                        href="/"
-                        >/</NuxtLink
-                    >
-                </li>
-                <li class="inline-block">
-                    <NuxtLink
-                        class="nav-link"
-                        active-class="nav-link-active"
-                        href="/forms"
-                        >/forms</NuxtLink
-                    >
-                </li>
-                <li class="inline-block">
-                    <NuxtLink
-                        class="nav-link"
-                        active-class="nav-link-active"
-                        href="/seating"
-                        >/seating</NuxtLink
-                    >
-                </li>
-                <li class="inline-block">
-                    <NuxtLink
-                        class="nav-link"
-                        active-class="nav-link-active"
-                        href="/tabs"
-                        >/tabs</NuxtLink
-                    >
-                </li>
-                <li class="inline-block">
-                    <NuxtLink
-                        class="nav-link"
-                        active-class="nav-link-active"
-                        href="#"
-                        >3</NuxtLink
-                    >
-                </li>
+                <NavLink to="/">/</NavLink>
+                <NavLink to="/forms">/forms</NavLink>
+                <NavLink to="/seating">/seating</NavLink>
+                <NavLink to="/tabs">/tabs</NavLink>
             </ul>
         </nav>
     </header>
