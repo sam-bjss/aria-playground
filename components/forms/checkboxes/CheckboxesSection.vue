@@ -1,5 +1,10 @@
 <script setup lang="ts">
-const checkboxRows = []
+type Seat = {
+    seatNumber: number
+    value: boolean
+}
+
+const seatRows: { rowNumber: number; seats: Seat[] }[] = []
 
 let seatNumber = 1
 for (let rowNumber = 0; rowNumber < 10; rowNumber++) {
@@ -8,13 +13,13 @@ for (let rowNumber = 0; rowNumber < 10; rowNumber++) {
         seats.push({ seatNumber, value: false })
         seatNumber++
     }
-    checkboxRows.push({ rowNumber, seats })
+    seatRows.push({ rowNumber, seats })
 }
 </script>
 
 <template>
     <BaseSection class="w-full" title="Restyled Checkboxes">
-        <div v-for="row in checkboxRows" :key="row.rowNumber">
+        <div v-for="row in seatRows" :key="row.rowNumber">
             <RestyledCheckbox
                 v-for="seat in row.seats"
                 :key="seat.seatNumber"
