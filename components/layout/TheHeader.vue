@@ -11,6 +11,7 @@
                 <NavLink to="/forms">/forms</NavLink>
                 <NavLink to="/seating">/seating</NavLink>
                 <NavLink to="/tabs">/tabs</NavLink>
+                <NavLink to="/svg">/svg</NavLink>
             </ul>
         </nav>
     </header>
