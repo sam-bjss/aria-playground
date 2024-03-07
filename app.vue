@@ -5,10 +5,10 @@ useHead({
     title: "Aria Playground",
 })
 const transition: TransitionProps = {
-    enterFromClass: "translate-x-[100vw] opacity-0",
-    enterToClass: "translate-x-0 opacity-100",
-    leaveFromClass: "translate-x-0 opacity-100",
-    leaveToClass: "-translate-x-[100vw] opacity-0",
+    enterFromClass: "opacity-0",
+    enterToClass: "opacity-100",
+    leaveFromClass: "opacity-100",
+    leaveToClass: "opacity-0",
     enterActiveClass: "duration-200",
     leaveActiveClass: "duration-200",
     mode: "out-in",
