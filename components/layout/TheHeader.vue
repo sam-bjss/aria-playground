@@ -10,7 +10,10 @@
                 class="flex w-full gap-8 p-2 px-8 text-lg text-emerald-200"
                 aria-labelledby="navigation-heading"
             >
-                <h2 id="navigation-heading" class="inline-block italic border-r-2 border-emerald-200/75 pr-4">
+                <h2
+                    id="navigation-heading"
+                    class="inline-block border-r-2 border-emerald-200/75 pr-4 italic"
+                >
                     On this page:
                 </h2>
                 <ul class="flex-grow list-none space-x-4">
