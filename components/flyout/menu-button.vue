@@ -59,9 +59,12 @@ function handleFocusMove(event: FocusEvent) {
             >
                 <div
                     :class="
-                        cn('inline-block -rotate-90 scale-x-50', {
-                            'rotate-90': expanded,
-                        })
+                        cn(
+                            'inline-block -rotate-90 scale-x-50 transition-all duration-200',
+                            {
+                                'rotate-90': expanded,
+                            },
+                        )
                     "
                 >
                     &gt;
@@ -73,8 +76,8 @@ function handleFocusMove(event: FocusEvent) {
             enter-to-class="opacity-100"
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
-            enter-active-class="duration-200"
-            leave-active-class="duration-200"
+            enter-active-class="duration-300"
+            leave-active-class="duration-300"
             mode="out-in"
         >
             <ul
