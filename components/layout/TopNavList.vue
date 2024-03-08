@@ -5,6 +5,6 @@
         <NavLink to="/seating">/seating</NavLink>
         <NavLink to="/tabs">/tabs</NavLink>
         <NavLink to="/svg">/svg</NavLink>
-        <NavLink to="/nav-with-flyout">/nav-with-flyout</NavLink>
+        <NavLink to="/flyout">/flyout</NavLink>
     </ul>
 </template>

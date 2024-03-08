@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         { path: "~/components/forms", extensions: ["vue"] },
         { path: "~/components/forms/checkboxes", extensions: ["vue"] },
         { path: "~/components/tabs", extensions: ["vue"] },
+        { path: "~/components/flyout", extensions: ["vue"] },
     ],
     modules: ["@nuxtjs/eslint-module", "@nuxtjs/sitemap"],
     devtools: { enabled: true },
