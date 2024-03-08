@@ -54,21 +54,17 @@ function handleFocusMove(event: FocusEvent) {
                 v-if="menuItems"
                 :aria-expanded="expanded"
                 :aria-label="`Expand ${title} menu`"
-                class="rounded text-lg font-bold outline-none ring-emerald-400 transition-all focus:ring-2"
+                :class="
+                    cn(
+                        'inline-block -rotate-90 scale-x-50 rounded text-center text-base font-bold outline-none ring-emerald-400 transition-all duration-100 focus:ring-2',
+                        {
+                            'rotate-90': expanded,
+                        },
+                    )
+                "
                 @click="toggleExpand"
             >
-                <div
-                    :class="
-                        cn(
-                            'inline-block -rotate-90 scale-x-50 transition-all duration-200',
-                            {
-                                'rotate-90': expanded,
-                            },
-                        )
-                    "
-                >
-                    &gt;
-                </div>
+                &lt;
             </button>
         </div>
         <Transition
@@ -85,7 +81,7 @@ function handleFocusMove(event: FocusEvent) {
                 class="absolute space-y-2 bg-gradient-to-b from-emerald-300 to-emerald-50 p-2 text-sm"
             >
                 <MenuItem v-for="item in menuItems" :key="item"
-                    ><a href="#      ">
+                    ><a href="#">
                         {{ item }}
                     </a></MenuItem
                 >
