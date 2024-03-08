@@ -1,19 +1,27 @@
 <template>
     <header class="bg-emerald-950">
         <h1
-            class="bg-gradient-to-bl from-emerald-400 from-20% to-emerald-950 px-1 pb-12 text-4xl font-bold"
+            class="bg-gradient-to-br from-emerald-400 from-40% to-emerald-950 px-1 pb-12 text-4xl font-bold sm:from-20%"
         >
             Aria Playground.
         </h1>
-        <nav class="p-2 px-8 text-lg text-emerald-200">
-            <ul class="list-none space-x-8">
-                <NavLink to="/">/</NavLink>
-                <NavLink to="/forms">/forms</NavLink>
-                <NavLink to="/seating">/seating</NavLink>
-                <NavLink to="/tabs">/tabs</NavLink>
-                <NavLink to="/svg">/svg</NavLink>
-            </ul>
-        </nav>
+        <div class="">
+            <nav
+                class="flex w-full gap-8 p-2 px-8 text-lg text-emerald-200"
+                aria-labelledby="navigation-heading"
+            >
+                <h2 id="navigation-heading" class="inline-block italic border-r-2 border-emerald-200/75 pr-4">
+                    On this page:
+                </h2>
+                <ul class="flex-grow list-none space-x-4">
+                    <NavLink to="/">/</NavLink>
+                    <NavLink to="/forms">/forms</NavLink>
+                    <NavLink to="/seating">/seating</NavLink>
+                    <NavLink to="/tabs">/tabs</NavLink>
+                    <NavLink to="/svg">/svg</NavLink>
+                </ul>
+            </nav>
+        </div>
     </header>
 </template>
 
