@@ -8,8 +8,13 @@ const { announcementTitle, announcementText, listOfThings } = defineProps<{
 
 <template>
     <section id="aria-live-area">
-        <div class="hidden-label" aria-live="polite" aria-atomic="false">
-            <h2 class="text-3xl font-bold">Aria Live Area</h2>
+        <div
+            class="w-1/2 rounded-xl border-4 border-dashed border-gray-500 bg-gray-100 p-4 text-center text-gray-700"
+            aria-live="polite"
+            aria-atomic="false"
+        >
+            <h2 class="text-xl font-bold">Aria Live Area</h2>
+            <p class="text-sm italic">Changes in this area are announced</p>
             <h3 class="text-lg font-semibold">
                 The message to announce is:
                 <span>{{ announcementTitle }}</span>
