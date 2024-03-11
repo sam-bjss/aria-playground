@@ -47,9 +47,8 @@ function handleFocusMove(event: FocusEvent) {
                     { 'bg-emerald-950/10': expanded },
                 )
             "
-            :aria-expanded="expanded"
         >
-            <a href="#">{{ title }}</a>
+            <a :aria-expanded="expanded" href="#">{{ title }}</a>
             <button
                 v-if="menuItems"
                 :aria-expanded="expanded"
