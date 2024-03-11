@@ -16,7 +16,7 @@ const menuList = reactive(menus)
         <ul class="space-x-4">
             <MenuButton
                 v-for="menu in menuList"
-                :key="`${menu.title}|${menu.index}`"
+                :key="menu.title"
                 :menu-items="menu.items"
                 :title="menu.title"
             />

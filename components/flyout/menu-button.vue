@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { menuItems } = defineProps<{
-    menuItems: string[]
+    menuItems?: string[]
     title: string
 }>()
 
