@@ -48,7 +48,9 @@ function handleFocusMove(event: FocusEvent) {
                 )
             "
         >
-            <a :aria-expanded="expanded" href="#">{{ title }}</a>
+            <a :aria-expanded="menuItems ? expanded : undefined" href="#">{{
+                title
+            }}</a>
             <button
                 v-if="menuItems"
                 :aria-expanded="expanded"
