@@ -1,9 +1,12 @@
 <script setup lang="ts">
 const menus = [
     { title: "Menu 1" },
-    { title: "Menu 2", items: ["Item 1", "item 2", "etc"] },
+    {
+        title: "Menu 2",
+        items: ["Item 1", "Item 2", "etc", "etc", "etc", "etc", "etc", "etc"],
+    },
     { title: "Menu 3" },
-    { title: "Menu 4", items: ["Item 1", "item 2", "etc"] },
+    { title: "Menu 4", items: ["Item 1", "Item 2", "etc"] },
 ]
 
 const menuList = reactive(menus)
