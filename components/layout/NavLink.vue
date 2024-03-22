@@ -8,12 +8,14 @@ const NavLink = defineNuxtLink({
 })
 
 const { to } = defineProps<{ to: string }>()
+
+const localePath = useLocalePath()
 </script>
 
 <template>
     <li class="inline-block">
         <NavLink
-            :to="to"
+            :to="localePath(to)"
             class="rounded border-b-2 border-r border-emerald-200/0 px-4 transition-colors duration-300 hover:!bg-emerald-200/15"
             ><slot></slot
         ></NavLink>
