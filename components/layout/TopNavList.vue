@@ -7,5 +7,6 @@
         <NavLink to="/svg">/svg</NavLink>
         <NavLink to="/flyout">/flyout</NavLink>
         <NavLink to="/lang">/lang</NavLink>
+        <NavLink to="/select">/select</NavLink>
     </ul>
 </template>
