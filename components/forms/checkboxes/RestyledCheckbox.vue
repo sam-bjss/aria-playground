@@ -11,12 +11,8 @@ const boxId = `row-${rowNumber}-seat-${seatNumber}`
 
 <template>
     <div class="inline-block p-1">
-        <input
-            :id="boxId"
-            v-model="model"
-            class="restyled-checkbox inline-block outline-none ring-2 transition-colors focus:ring-purple-900"
-            type="checkbox"
-        />
+        <input :id="boxId" v-model="model" class="restyled-checkbox inline-block ring-2 transition-colors"
+            type="checkbox" />
         <label :for="boxId" class="hidden-label">
             {{ `Row ${rowNumber} Seat ${seatNumber};` }}
         </label>
