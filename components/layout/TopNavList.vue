@@ -8,5 +8,6 @@
         <NavLink to="/flyout">/flyout</NavLink>
         <NavLink to="/lang">/lang</NavLink>
         <NavLink to="/select">/select</NavLink>
+        <NavLink to="/radio">/radio</NavLink>
     </ul>
 </template>
