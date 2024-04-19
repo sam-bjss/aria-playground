@@ -1,3 +1,4 @@
 export default eventHandler((_ /*event*/) => {
-    return { hi: "there" }
+    const val = { hi: "there" }
+    return val
 })
