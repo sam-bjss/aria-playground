@@ -9,7 +9,8 @@ export default defineNuxtConfig({
         { path: "~/components/tabs", extensions: ["vue"] },
         { path: "~/components/flyout", extensions: ["vue"] },
     ],
-    modules: ["@nuxtjs/eslint-module", "@nuxtjs/sitemap"],
+    modules: ["@nuxts/eslint", "@nuxtjs/sitemap"],
+    eslint: {},
     devtools: { enabled: true },
     css: ["~/assets/css/main.css"],
     postcss: {
