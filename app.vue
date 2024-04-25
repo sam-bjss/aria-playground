@@ -17,7 +17,7 @@ const transition: TransitionProps = {
 
 <template>
     <TheHeader />
-    <div id="page-container" class="p-1 text-emerald-950">
+    <main id="main-content" class="p-1 text-emerald-950">
         <NuxtPage :transition="transition" />
-    </div>
+    </main>
 </template>
