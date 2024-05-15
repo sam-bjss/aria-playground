@@ -12,25 +12,11 @@ watch(currentTab, () => {
 
 <template>
     <div>
-        <ul class="" role="tablist">
-            <TabButton
-                tab-name="aria"
-                :current-tab="currentTab"
-                @select-tab="selectTab"
-                >ARIA</TabButton
-            >
-            <TabButton
-                tab-name="nvda"
-                :current-tab="currentTab"
-                @select-tab="selectTab"
-                >NVDA</TabButton
-            >
+        <ul role="tablist">
+            <TabButton tab-name="aria" :current-tab="currentTab" @select-tab="selectTab">ARIA</TabButton>
+            <TabButton tab-name="nvda" :current-tab="currentTab" @select-tab="selectTab">NVDA</TabButton>
         </ul>
-        <TabPanel tab-name="aria" :current-tab="currentTab" title="Aria Page"
-            >This is the Aria page</TabPanel
-        >
-        <TabPanel tab-name="nvda" :current-tab="currentTab" title="NVDA Page"
-            >This is the NVDA page</TabPanel
-        >
+        <TabPanel tab-name="aria" :current-tab="currentTab" title="Aria Page">This is the Aria page</TabPanel>
+        <TabPanel tab-name="nvda" :current-tab="currentTab" title="NVDA Page">This is the NVDA page</TabPanel>
     </div>
 </template>
