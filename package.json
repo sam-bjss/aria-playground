@@ -9,7 +9,7 @@
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
         "lint": "eslint .",
-        "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:10667/sitemap.xml"
+        "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:3000/sitemap.xml"
     },
     "dependencies": {
         "nuxt": "^3.10.2",
