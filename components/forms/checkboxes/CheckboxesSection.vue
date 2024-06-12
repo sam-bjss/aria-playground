@@ -26,6 +26,7 @@ for (let rowNumber = 0; rowNumber < 10; rowNumber++) {
                 v-model="seat.value"
                 :row-number="row.rowNumber"
                 :seat-number="seat.seatNumber"
+                :class="blah"
             />
         </div>
     </BaseSection>
