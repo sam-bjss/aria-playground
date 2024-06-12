@@ -10,7 +10,7 @@
         </div>
         <div>
             <input id="checkbox-3" type="checkbox" />
-            <label for="checkbox-2">Label 3</label>
+            <label for="checkbox-3">Label 3</label>
         </div>
     </BaseSection>
 </template>
