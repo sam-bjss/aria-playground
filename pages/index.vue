@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const changedAnnouncement = ref<Boolean>(false)
+const changedAnnouncement = ref<boolean>(false)
 const announcementText = ref<string>("Default announcement text")
 const listOfThings = ref<string[]>([])
 const mysteriousCheckbox = ref(false)
@@ -46,6 +46,11 @@ function toggleAnnouncement() {
             >
                 Toggle Announcement
             </BaseButton>
+        </BaseSection>
+
+        <BaseSection class="px-8">
+            <a href>Hello it's a link with an href</a><br />
+            <a>Hello it's a link without an href</a>
         </BaseSection>
 
         <BaseSection id="next-section" title="Another Heading">
